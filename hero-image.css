@@ -19,7 +19,7 @@
 @media(max-width:720px){
   .hero{
     min-height:370px;
-    background-position:center;
+    background-position:63% center;
     padding:24px 20px;
   }
 }
