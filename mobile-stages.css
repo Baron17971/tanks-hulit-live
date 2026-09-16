@@ -1,0 +1,28 @@
+@media (max-width:760px){
+  .stage-strip{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:6px;
+    overflow:visible;
+    padding:3px 0 10px;
+  }
+  .stage{
+    min-width:0;
+    width:100%;
+    padding:10px 7px;
+    border-radius:14px;
+    text-align:center;
+  }
+  .stage b{
+    font-size:13px;
+    line-height:1.25;
+    white-space:normal;
+  }
+  .stage small{
+    display:block;
+    margin-top:4px;
+    font-size:11px;
+    line-height:1.2;
+    white-space:normal;
+  }
+}
