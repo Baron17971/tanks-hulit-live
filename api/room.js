@@ -1,7 +1,7 @@
 import { getCache } from '@vercel/functions';
 import crypto from 'node:crypto';
 
-const TTL = 36000;
+const TTL = 2592000;
 const NS = 'tanks-hulit-live-v1';
 const SHARDS = 24;
 const OPTION_COUNT = { 1: 4, 2: 7 };
